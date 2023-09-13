@@ -1,0 +1,7 @@
+{
+  "extends": "@redduck/helpers-tsconfig/tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ESNext"]
+  },
+  "include": ["src", "tests"]
+}

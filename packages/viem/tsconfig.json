@@ -1,0 +1,4 @@
+{
+  "extends": "@redduck/helpers-tsconfig/tsconfig.base.json",
+  "include": ["src", "tests"]
+}

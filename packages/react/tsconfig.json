@@ -1,0 +1,8 @@
+{
+  "extends": "@redduck/helpers-tsconfig/tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "jsx": "react-jsx"
+  },
+  "include": ["src", "tests"]
+}

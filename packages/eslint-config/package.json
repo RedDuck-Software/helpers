@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-redduck",
+  "version": "0.0.2",
+  "description": "ESLint config for plain TS which RedDuck Software uses in its projects.",
+  "author": {
+    "name": "RedDuck Software",
+    "email": "sales@redduck.io",
+    "url": "https://redduck.io"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/RedDuck-Software/helpers#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedDuck-Software/helpers.git",
+    "directory": "packages/eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/RedDuck-Software/helpers/issues"
+  },
+  "type": "commonjs",
+  "main": "index.cjs",
+  "files": [
+    "index.cjs"
+  ],
+  "scripts": {
+    "build": "echo \"No build available.\"",
+    "test": "echo \"No tests available.\""
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "eslint": "^8.49.0"
+  }
+}

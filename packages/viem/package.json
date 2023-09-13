@@ -1,0 +1,49 @@
+{
+  "name": "@redduck/helpers-viem",
+  "version": "0.0.2",
+  "description": "Viem helpers RedDuck Software uses in its projects.",
+  "author": {
+    "name": "RedDuck Software",
+    "email": "sales@redduck.io",
+    "url": "https://redduck.io"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/RedDuck-Software/helpers#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedDuck-Software/helpers.git",
+    "directory": "packages/viem"
+  },
+  "bugs": {
+    "url": "https://github.com/RedDuck-Software/helpers/issues"
+  },
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "rimraf ./dist && rollup -c",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@redduck/helpers-js": "0.0.2"
+  },
+  "peerDependencies": {
+    "viem": ">=1"
+  },
+  "devDependencies": {
+    "@redduck/helpers-tsconfig": "0.0.2",
+    "eslint-config-redduck": "0.0.2",
+    "viem": "^1.10.9"
+  }
+}
