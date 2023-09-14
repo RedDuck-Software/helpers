@@ -26,7 +26,7 @@ Contains our typescript configurations.
 
 Upgrade your `tsconfig.json` file to extend this config:
 
-```json
+```json5
 {
   "extends": "@redduck/helpers-tsconfig/tsconfig.base.json",
   "compilerOptions": {

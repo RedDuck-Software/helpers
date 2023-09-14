@@ -1,6 +1,7 @@
-import { describe, it, expect } from 'vitest';
-import { formatBigInt } from '../../src/formatters/formatBigInt';
 import { parseUnits } from 'viem';
+import { describe, it, expect } from 'vitest';
+
+import { formatBigInt } from '../../src/formatters/formatBigInt';
 
 describe('Format Coma', () => {
   const decimals = 18;

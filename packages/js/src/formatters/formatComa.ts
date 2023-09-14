@@ -2,7 +2,7 @@ export const formatComa = (value: string | number, precision = 2) => {
   const numberString =
     typeof value === 'string'
       ? parseFloat(value).toFixed(precision)
-      : value.toFixed(precision)
+      : value.toFixed(precision);
   const parts = [];
   let decimalPart = '';
 

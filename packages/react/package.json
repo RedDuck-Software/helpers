@@ -1,7 +1,12 @@
 {
   "name": "@redduck/helpers-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React helpers RedDuck Software uses in its projects.",
+  "keywords": [
+    "redduck",
+    "helpers",
+    "react"
+  ],
   "author": {
     "name": "RedDuck Software",
     "email": "sales@redduck.io",
@@ -33,16 +38,15 @@
   },
   "scripts": {
     "build": "rimraf ./dist && rollup -c",
-    "test": "vitest run"
+    "test": "vitest run",
+    "lint": "eslint ."
   },
   "dependencies": {},
   "peerDependencies": {
     "react": ">=18"
   },
   "devDependencies": {
-    "@redduck/helpers-tsconfig": "0.0.2",
     "@types/react": "^18.2.21",
-    "eslint-config-redduck": "0.0.2",
     "react": "^18.2.0"
   }
 }

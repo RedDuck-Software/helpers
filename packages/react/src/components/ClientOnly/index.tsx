@@ -1,6 +1,7 @@
 'use client';
 
 import { type PropsWithChildren } from 'react';
+
 import { useIsMounted } from '../../hooks';
 
 export interface ClientOnlyProps extends PropsWithChildren {}

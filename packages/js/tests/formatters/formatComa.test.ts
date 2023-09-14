@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+
 import { formatComa } from '../../src/formatters/formatComa';
 
 describe('Format Coma', () => {

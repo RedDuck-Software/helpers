@@ -7,7 +7,8 @@
   ],
   "scripts": {
     "test": "vitest run",
-    "build": "yarn workspaces run build"
+    "build": "yarn workspaces run build",
+    "lint": "yarn workspaces run lint"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,8 @@
   },
   "homepage": "https://github.com/RedDuck-Software/helpers#readme",
   "devDependencies": {
+    "@redduck/eslint-plugin": "*",
+    "@redduck/helpers-tsconfig": "*",
     "@rollup/plugin-alias": "^5.0.0",
     "@rollup/plugin-commonjs": "^25.0.4",
     "@rollup/plugin-json": "^6.0.0",
@@ -32,7 +35,6 @@
     "@types/node": "^20.6.0",
     "esbuild": "^0.19.2",
     "eslint": "^8.49.0",
-    "eslint-config-redduck": "*",
     "prettier": "^3.0.3",
     "rimraf": "^5.0.1",
     "rollup": "^3.29.1",

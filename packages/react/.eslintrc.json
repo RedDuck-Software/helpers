@@ -1,6 +1,6 @@
 {
+  "extends": ["../../.eslintrc.json", "plugin:@redduck/recommended-react"],
   "env": {
-    "node": true
-  },
-  "extends": ["redduck"]
+    "browser": true
+  }
 }

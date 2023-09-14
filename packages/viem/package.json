@@ -1,7 +1,13 @@
 {
   "name": "@redduck/helpers-viem",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Viem helpers RedDuck Software uses in its projects.",
+  "keywords": [
+    "redduck",
+    "helpers",
+    "viem",
+    "web3"
+  ],
   "author": {
     "name": "RedDuck Software",
     "email": "sales@redduck.io",
@@ -33,17 +39,16 @@
   },
   "scripts": {
     "build": "rimraf ./dist && rollup -c",
-    "test": "vitest run"
+    "test": "vitest run",
+    "lint": "eslint ."
   },
   "dependencies": {
-    "@redduck/helpers-js": "0.0.2"
+    "@redduck/helpers-js": "0.0.3"
   },
   "peerDependencies": {
     "viem": ">=1"
   },
   "devDependencies": {
-    "@redduck/helpers-tsconfig": "0.0.2",
-    "eslint-config-redduck": "0.0.2",
     "viem": "^1.10.9"
   }
 }

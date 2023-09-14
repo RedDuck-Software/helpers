@@ -3,5 +3,14 @@
   "env": {
     "node": true
   },
-  "extends": ["redduck"]
+  "extends": ["plugin:@redduck/recommended"],
+  "plugins": ["@redduck"],
+  "ignorePatterns": [
+    "node_modules/",
+    "**/node_modules/",
+    "/**/node_modules/*",
+    "dist/",
+    "**/dist/",
+    "/**/dist/*"
+  ]
 }

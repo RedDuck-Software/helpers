@@ -1,5 +1,5 @@
 {
-  "extends": "@redduck/helpers-tsconfig/tsconfig.base.json",
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "lib": ["ESNext", "DOM"],
     "jsx": "react-jsx"

@@ -1,7 +1,13 @@
 {
   "name": "@redduck/helpers-tsconfig",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Contains RedDuck Software TypeScript configurations.",
+  "keywords": [
+    "redduck",
+    "helpers",
+    "tsconfig",
+    "typescript"
+  ],
   "author": {
     "name": "RedDuck Software",
     "email": "sales@redduck.io",
@@ -19,7 +25,8 @@
   },
   "scripts": {
     "build": "echo \"No build available.\"",
-    "test": "echo \"No tests available.\""
+    "test": "echo \"No tests available.\"",
+    "lint": "echo \"No lints available.\""
   },
   "files": [
     "tsconfig.base.json"
