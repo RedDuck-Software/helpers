@@ -1,6 +1,6 @@
 {
   "name": "@redduck/helpers-viem",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Viem helpers RedDuck Software uses in its projects.",
   "keywords": [
     "redduck",
@@ -32,9 +32,9 @@
   ],
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "default": "./dist/index.js"
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/esm/index.js",
+      "default": "./dist/cjs/index.js"
     }
   },
   "scripts": {
@@ -42,13 +42,13 @@
     "test": "vitest run",
     "lint": "eslint ."
   },
-  "dependencies": {
+  "dependencies": {},
+  "peerDependencies": {
+    "viem": ">=1",
     "@redduck/helpers-js": "0.0.3"
   },
-  "peerDependencies": {
-    "viem": ">=1"
-  },
   "devDependencies": {
+    "@redduck/helpers-js": "0.0.3",
     "viem": "^1.10.9"
   }
 }

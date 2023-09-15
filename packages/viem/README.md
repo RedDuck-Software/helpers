@@ -7,17 +7,17 @@ Contains various helper functions for viem.
 - npm
 
   ```shell
-  npm install @redduck/helpers-viem viem
+  npm install @redduck/helpers-viem @redduck/helpers-js viem
   ```
 
 - yarn
 
   ```shell
-  yarn add @redduck/helpers-viem viem
+  yarn add @redduck/helpers-viem @redduck/helpers-js viem
   ```
 
 - pnpm
 
   ```shell
-  pnpm add @redduck/helpers-viem viem
+  pnpm add @redduck/helpers-viem @redduck/helpers-js viem
   ```
